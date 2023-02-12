@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--white-color);
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.section {
+  padding: 94px 0;
+  &--title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-color);
+    padding-bottom: 50px;
+  }
+  &--card {
+    padding-bottom: 0;
+  }
+  &--team {
+    padding: 94px 0;
+    background-color: #f5f4fa;
+  }
+}

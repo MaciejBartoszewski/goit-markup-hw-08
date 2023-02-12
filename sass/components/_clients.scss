@@ -1,0 +1,20 @@
+.clients {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+  &__logo {
+    fill: #afb1b8;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    padding: 16px 32px;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+  fill: var(--blue-color);
+  border: 1px solid var(--blue-color);
+}
+  }
+}

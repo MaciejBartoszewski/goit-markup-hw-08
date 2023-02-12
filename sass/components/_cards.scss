@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+
+  &__item {
+    padding-top: 10px;
+  }
+  &__icon {
+    all: unset;
+    background-color: var(--lorem-color);
+    border-radius: 4px;
+    padding: 25px 100px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark-color);
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  &__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--gray-color);
+  }
+}
