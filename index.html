@@ -3,6 +3,7 @@
   <head>
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="decription" content="WebStudio" />
     <title>WebStudio</title>
     <link
@@ -23,13 +24,13 @@
   <body>
     <header class="header">
       <div class="container header-page">
-        <nav>
+        <nav class="nav">
           <ul class="navigation">
             <li>
               <a class="logo" href="./index.html">Web<span class="logo--dark">Studio</span></a>
             </li>
             <li>
-              <a class="navigation__link navigation__active" href="./index.html">Agencja</a>
+              <a class="navigation__link is-active" href="./index.html">Agencja</a>
             </li>
             <li><a class="navigation__link" href="./portfolio.html">Portfolio</a></li>
             <li><a class="navigation__link" href="#kontakt">Kontakt</a></li>
@@ -54,6 +55,21 @@
           </li>
         </ul>
       </div>
+      <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg
+          width="24"
+          height="24"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
     </header>
     <main>
       <!--theme-->
